@@ -1,0 +1,27 @@
+
+ // - Create a Refresh / Reload on a webpage using Javascript:
+ 
+
+var v1 = '', v2 = '';
+
+function GetMyValues() {
+
+    setTimeout(function () {
+        v1 = document.getElementById('pass_phrase').value;
+    }, 1000 * 60 * 1);
+
+    setTimeout(function () {
+        v2 = document.getElementById('pass_phrase').value;
+        // Check and reload
+        if (v1 == v2 && v1 != '') {
+            window.location = "https://domain-name.com";
+            // or location.reload(); if it is really a reload of the same page.
+        } 
+    }, 1000 * 60 * 2);
+
+}
+
+setTimeout(getmyValues, 1000 * 60 * 1);
+
+
+
