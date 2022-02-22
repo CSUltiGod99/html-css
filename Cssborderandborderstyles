@@ -1,0 +1,17 @@
+body {  
+    p.dotted {border-style: dotted}
+    p.doubled {border-style: doubled;}
+    p.inset {border-style: inset;}
+    p.groove {border-style: groove;}
+    p.solid {border-style: solid;}
+    p.none {border-style: none;}
+    p.mix {border-style: inset solid doubled;}
+}
+
+
+
+
+
+
+
+
