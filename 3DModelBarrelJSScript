@@ -1,0 +1,12 @@
+var Texture_Drum = "https://keithclark.co.uk/labs/css-fps/drum2.png";
+
+
+
+function createAnAssembly(
+{
+   var assembly = document.createElement("div");
+   assembly.className = "threedee assembly";
+   return 
+}
+
+
