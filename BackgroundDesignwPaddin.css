@@ -1,0 +1,20 @@
+background {
+     background-color: crimson;
+}
+
+p {
+    color: lime;
+}
+
+.center {
+    text-align: center;
+    background-color: darkblue;
+    margin: 30%;
+    border: 3px solid lime;
+    padding: 10px;
+
+h {
+    text-align: center;
+    Color: #a29f47;
+}
+
