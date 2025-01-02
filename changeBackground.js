@@ -3,7 +3,8 @@
 
 function changeBackground(color)
 {
-    document.body.style.background
-
-
+    document.body.style.background = color;
+}
+window.AddEventListener("load" , function() { changeBackground('green') });
+                               
 
